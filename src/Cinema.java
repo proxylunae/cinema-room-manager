@@ -27,7 +27,7 @@ public class Cinema {
         System.out.println("Enter the number of seats in each row:");
         int rowSeats = scan.nextInt();
         int allSeats = rows * rowSeats;
-        int income = 0;
+        int income;
         if (allSeats <= 60) {
             income = allSeats * 10;
         } else {
