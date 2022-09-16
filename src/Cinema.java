@@ -21,6 +21,7 @@ public class Cinema {
                 System.out.print(string + "\t");
             }
             System.out.println();
+            System.out.println();
         }
         System.out.println();
         showMenu();
